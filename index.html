@@ -32,7 +32,7 @@
 	  
 	  // This will redirect the page to facebook.  Pay special attention to the query
 	  // parameters, we are asking for a token to be sent back to the redirect_uri
-	  let client_id = '245555383168152';
+	  let client_id = '***************';
 	  document.location.href= [`https://www.facebook.com/v3.2/dialog/oauth?client_id=${client_id}`,
 				   `redirect_uri=${document.location.href}`,
 				   `response_type=token`,
